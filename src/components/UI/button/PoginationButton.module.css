@@ -1,0 +1,20 @@
+.default__btn {
+    border: 1px solid teal;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 2px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.active__btn {
+    border: 3px solid black;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 2px;
+    width: 28px;
+    font-weight:700;
+    cursor: pointer;
+}

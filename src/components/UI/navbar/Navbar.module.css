@@ -1,0 +1,25 @@
+.navbar {
+    background-color: lightgrey;
+    width: 100vw;
+    height: 50px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__links {
+    margin-left: auto;
+}
+
+.active {
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.active:focus {
+    color: teal;
+    font-weight: 700;
+    text-decoration:underline;
+}
+
